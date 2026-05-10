@@ -8,12 +8,12 @@
   $(function(){
     // ここに処理を記述
     $("#button").on("click", function (){
-     var value = $("#value").val();
-      if (value == "1") {
+     let value = $("#value").val();
+      if (value ==="1") {
         $("#box").css("background-color", "red");
-      } else if (value == "2") {
+      } else if (value === "2") {
         $("#box").css("background-color", "green");
-      } else if (value == "3") {
+      } else if (value === "3") {
         $("#box").css("background-color", "blue");
       }
     });
